@@ -1,0 +1,178 @@
+.about{
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 150px;
+	height: 300px;
+}
+
+.art{
+	text-align: center;
+	font-size: 25px;
+	font-weight: 200;
+}
+
+h2{
+	font-size: 60px;
+	font-weight: 700;
+}
+
+.button {
+	height: 50px;
+	width: 130px;
+	background-color: rgb(235, 201, 90);
+	cursor: pointer;
+	border-radius: 20px;
+	color: rgba(255, 255, 255, 0.762);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 15px;
+	transition: 400ms;
+	font-weight: 700;
+}
+
+.button:hover {
+	color: gray;
+}
+.static{
+	height: 65px;
+	display: flex;
+	justify-content: center;
+	padding: 20px 0px 0px 0px;
+}
+.sub-content {
+	margin-top: 150px;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	align-items: center;
+	border: 1px solid rosybrown;
+	width: 100%;
+}
+
+.service{
+	border: 1px solid tomato;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: column;
+	height: 300px;
+}
+
+.service h2{
+	font-size: 40px;
+}
+
+h3 {
+	font-size: 25px;
+	font-weight: 400;
+	margin-top: -100px;
+}
+
+ h4{
+	font-size: 30px;
+	font-weight: 700;
+ }
+.range {
+	border: 1px solid indigo;
+	display: flex;
+	justify-content: space-around;
+	width: 1300px;
+}
+
+.info {
+	font-size: 17px;
+	font-weight: 300;
+}
+
+.photos-service img {
+	width: 100px;
+	object-fit: cover;
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-select: none; 
+	-ms-user-select: none;
+}
+
+.photos-service {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: column;
+	height: 300px;
+}
+
+.xiaomi{
+	margin-top: 300px;
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	border: 1px solid salmon;
+}
+
+.point {
+	background-color: rgb(235, 201, 90);
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	margin-right: 5px;
+}
+.viberi {
+	display: flex;
+	flex-direction: column;
+	width: 340px;
+}
+
+article{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.viberi section {
+	text-align: center;
+	font-size: 18px;
+	font-weight: 400;
+}
+
+.xi-photo img{
+	object-fit: cover;
+	width: 600px;
+}
+
+.saction {
+	margin-top: 30px;
+	height: 60px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+
+}
+
+.map{
+	margin-top: 20px;
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	border: 1px solid salmon;
+}
+
+
+
+
+footer {
+	height: 200px;
+	background-color: rgb(31, 31, 31);
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: column;
+}
+
+.foo {
+	width: 1000px;
+	margin-top: 40px;
+}
